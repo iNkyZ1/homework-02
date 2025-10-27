@@ -1,15 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Webpack App</title>
-    <script defer src="dist/main.4289541694b8e848e9d4.js"></script>
-  </head>
-  <body>
-    <h1>Webpack App</h1>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Звуки природы</title>
+	</head>
+	<body>
+		<main class="container">
+			<h1>Звуки природы</h1>
 
-    <ul id="app"></ul>
-  </body>
+			<section id="controls" class="controls">
+				<label for="volume">Громкость</label>
+				<input id="volume" type="range" min="0" max="1" step="0.01" value="0.7" />
+			</section>
+
+			<section id="buttons" class="buttons" aria-label="Список шумов"></section>
+		</main>
+	</body>
 </html>
