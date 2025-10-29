@@ -1,4 +1,3 @@
-import data from './data';
 import './styles.scss';
 
 import rainAudio from './assets/audio/rain.mp3';
